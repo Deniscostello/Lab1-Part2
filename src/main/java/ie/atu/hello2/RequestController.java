@@ -19,7 +19,7 @@ public class RequestController {
 
     @GetMapping("/details")
     public String name(@RequestParam int age, @RequestParam String name){
-        return "Users age:" + age+ name;
+        return "Name: " +name + " Age: " + age;
     }
 
 }
